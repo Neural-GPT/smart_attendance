@@ -37,7 +37,7 @@ No more roll calls — students’ faces are recognized automatically, and their
 
 
 **Demo Video:**  
-
+[https://youtu.be/3mVEXCEw-YE]
 
 ---
 
