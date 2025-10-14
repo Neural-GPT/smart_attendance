@@ -68,7 +68,7 @@ No more roll calls — students’ faces are recognized automatically, and their
 ***App is installed in your device now***
 
 **Team Leader: Arjun Gupta**
+
 **Team Members: Deepak Kumar Yadav, Abhay Gaur**
-   
    
    
