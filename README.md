@@ -1,1 +1,74 @@
-# smart_attendance
+# SMART ATTENDANCE
+
+### Description  
+**Smart Attendance** is an intelligent Android app that automates student attendance using **computer vision** and **machine learning**.  
+No more roll calls — students’ faces are recognized automatically, and their attendance is marked instantly.
+
+---
+
+### Problem Statement  
+1. Teachers must manually mark attendance for each student — repetitive and time-consuming.  
+2. Attendance needs to be taken separately in every class.  
+3. This wastes valuable teaching time and human effort, which can easily be automated.
+
+---
+
+### Proposed Solution  
+1. Our **Smart Attendance App** leverages **AI-based face recognition** to automate attendance.  
+2. Each student is identified through facial features in real time.  
+3. Attendance is automatically recorded without manual intervention.  
+
+---
+
+### Tech Stack  
+
+| Category | Tools / Frameworks |
+|-----------|--------------------|
+| **Machine Learning** | TensorFlow, TensorFlow Lite, Jupyter Notebook (Google Colab) |
+| **App Development** | Flutter (Dart, Android SDK) |
+| **Libraries Used** | `tflite_flutter`, `camera`, `image` |
+
+---
+
+### Screenshots & Demo  
+
+**Screenshot:**  
+![Screenshot_20251014-152101](https://github.com/user-attachments/assets/b939468a-bcf6-4301-994e-0abd399b26dd)
+
+
+**Demo Video:**  
+
+
+---
+
+### How to Run the Project  
+
+1. **Set up Flutter and Android SDK**  
+   - Install [Flutter](https://docs.flutter.dev/get-started/install)  
+   - Set up the **Android SDK** and ensure it’s linked to VS Code.
+
+2. **Clone or Download the Project**  
+   ```bash
+   git clone https://github.com/Neural-GPT/smart_attendance.git
+   cd smart_attendance
+
+3. **Install dependencies and build apk**
+   ```bash
+   flutter pub get
+   flutter build apk --release --target-platform android-arm,android-arm64,android-x64
+
+4. **Connect your Android device**
+   
+   -Enable USB Debugging under Developer Options.
+   -Connect via USB and select File Transfer (MTP) mode.
+   -Verify the connection and install the app:
+   ```bash
+   adb devices
+   adb install -r build/app/outputs/flutter-apk/app-release.apk
+***App is installed in your device now***
+
+**Team Leader: Arjun Gupta**
+**Team Members: Deepak Kumar Yadav, Abhay Gaur**
+   
+   
+   
